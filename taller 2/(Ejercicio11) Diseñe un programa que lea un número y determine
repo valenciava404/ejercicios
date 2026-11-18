@@ -1,0 +1,29 @@
+Algoritmo sin_titulo
+	Definir num1 como entero
+	Escribir "programa para leer tu numero y saber si esta entre:"
+	Escribir "20 a 50, o de 70 a 120, o de 150 a 300, o, de menor a 20, o de 51 a 69, o de 121 a 149,"
+	leer num1
+	si num1 >= 20 y num1 <= 50 Entonces
+		Escribir "tu numero se encuentra en el rango de 20 a 50"
+		fin si
+		si num1 >= 70 y num1 <= 120 Entonces
+			Escribir "tu numero se encuentra en el rango de 70 a 120"
+		SiNo
+			si num1 >= 150 y num1 <= 300 Entonces
+				Escribir "tu numero se encuentra en el rango de 150 a 300"
+			SiNo
+				si num1 <= 20  Entonces
+					Escribir "tu numero se encuentra en el rango de 20 a 0"
+				SiNo
+					si num1 >= 51 y num1 <= 69 Entonces
+						Escribir "tu numero se encuentra en el rango de 51 y 69"
+					sino
+						si num1 >= 121 y num1 <= 149 Entonces
+							Escribir "tu numero se encuentra en el rango de 121 y 149"
+							
+						FinSi
+					FinSi
+				FinSi
+		FinSi
+	FinSi
+	FinAlgoritmo

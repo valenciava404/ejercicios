@@ -1,0 +1,14 @@
+Algoritmo altura_de_persona
+	definir alt Como real
+	Escribir "Dijita la altura de la persona"
+	leer alt
+	si alt <= 150 Entonces
+		Escribir "la altura es baja"
+	SiNo
+		si alt > 150 y alt <170 Entonces
+			Escribir "la altura de la persona es mediana"
+		SiNo
+			Escribir "la altura de la persona es alta"
+		FinSi
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,13 @@
+Algoritmo definitiva1
+	Definir v1,v2,v3,definitiva Como real
+	Escribir "Dijita las notas del estudiante entre 1 y 5"
+	leer v1,v2,v3
+	definitiva=(v1+v2+v3)/3
+	Escribir "la suma de las notas del estudiante es de " v1+v2+v3
+	Escribir "ahora dividimos a " v1+v2+v3 " por 3 para hallar el promedio"
+	si definitiva>=3.0
+		Escribir "el promedio del estudiante es de " definitiva " el estudiante aprobo la materia :)"
+	SiNo
+		Escribir "el promedio del estudiante es de " definitiva " estudiante No aprobo la materia :("
+	FinSi
+	FinAlgoritmo

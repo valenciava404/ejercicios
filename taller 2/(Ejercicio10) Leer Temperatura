@@ -1,0 +1,20 @@
+Algoritmo tabla
+	Definir num1 Como Entero
+	Escribir "dijita las temperaturas para saber cual es el clima:"
+	leer num1
+	
+	si num1 <= 10 Entonces
+		Escribir "Temperatura Frio"
+	SiNo
+		si num1 <= 20 Entonces
+			Escribir "temperatura nublado"
+		SiNo
+			si num1 <= 30 Entonces
+				Escribir "temperatura caluroso"
+			SiNo
+				Escribir "temperatura tropical"
+			FinSi
+			
+		FinSi
+	FinSi
+FinAlgoritmo

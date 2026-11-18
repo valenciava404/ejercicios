@@ -1,0 +1,16 @@
+Algoritmo dia_semana
+	Definir num1 Como Entero
+	Escribir "dijita el numero de la semana (1-7)"
+	leer num1
+	Segun num1 hacer 
+		1: escribir "lunes"
+		2: escribir "martes"
+		3: escribir "miercoles"
+		4: escribir "jueves"
+		5: escribir "viernes"
+		6: escribir "sabado"
+		7: escribir "domingo"
+		De Otro Modo:
+			Escribir "no es un dia de la semana, dijitaste 0 o otro numero"
+	FinSegun
+	FinAlgoritmo
